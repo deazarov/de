@@ -1,0 +1,162 @@
+/**
+ * Generic elements
+ */
+body {
+  margin: 0;
+  padding: 0;
+  background: url("http://www.babyshopstores.com/sites/all/themes/babyshop/images/BTS-background.jpg") no-repeat scroll 50% 0 #FFFFFF;
+  font-family: arial;
+  font-size: 13px;
+}
+a {color: #217fb2;}
+h2 {font-family: 'Open Sans', sans-serif; font-weight: 400; font-size: 36px; margin: 0 0 20px;}
+
+
+
+/* Tabs */
+.tabs.primary {
+  margin: 8px 0px 11px !important;
+  float: left;
+  width: 100%;
+  height: 40px;
+  border: none;
+  padding: 0;
+}
+.tabs.primary li a, .tabs.secondary li a  {
+  border: 0px !important;
+  background: #fff !important;
+  padding: 6px !important;
+  color: #000;
+}
+.tabs.primary li.active a, .tabs.secondary li.active a{
+  background: #eee !important;
+  padding: 6px 10px !important;
+  color: #333;
+}
+.tabs.secondary {
+  border: 0px;
+  margin: -5px 0px 30px !important;
+  padding: 0px;
+}
+.tabs.secondary li {border: 0px !important; padding: 0px !important;}
+/* END Tabs */
+
+
+
+/* Product page */
+.view-products.view-display-id-node {width: 100%; float: left; font-family: 'Open Sans', sans-serif; font-weight: 400; font-size: 16px;}
+.view-products.view-display-id-node .view-content {width: 1360px; float: left;}
+.view-products.view-display-id-node .views-field {margin: 0 0 6px;}
+.view-products.view-display-id-node .view-content .views-label {width: 200px; float: left; color: #888;}
+.view-products.view-display-id-node .views-field-uc-product-image {float: left; margin: 0 40px 0 0;}
+
+
+
+#header {
+  width: 1400px;
+  margin: 0 auto;
+  height: 70px;
+  border-radius: 0 0 20px 20px;
+  background: #258dc8;
+  background: -moz-linear-gradient(top, #258dc8 0%, #217fb2 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#258dc8), color-stop(100%,#217fb2));
+  background: -webkit-linear-gradient(top, #258dc8 0%,#217fb2 100%);
+  background: -o-linear-gradient(top, #258dc8 0%,#217fb2 100%);
+  background: -ms-linear-gradient(top, #258dc8 0%,#217fb2 100%);
+  background: linear-gradient(to bottom, #258dc8 0%,#217fb2 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#258dc8', endColorstr='#217fb2',GradientType=0 );
+  border: 1px solid #186C99;
+  border-top: none;
+  box-shadow: 0 -1px 0 #258dc8 inset;
+}
+#header .header_line {
+  height: 70px;
+  width: 1px;
+  float: left;
+  background: rgb(32,124,173);
+  background: -moz-linear-gradient(top, rgba(32,124,173,1) 0%, rgba(28,105,147,1) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(32,124,173,1)), color-stop(100%,rgba(28,105,147,1)));
+  background: -webkit-linear-gradient(top, rgba(32,124,173,1) 0%,rgba(28,105,147,1) 100%);
+  background: -o-linear-gradient(top, rgba(32,124,173,1) 0%,rgba(28,105,147,1) 100%);
+  background: -ms-linear-gradient(top, rgba(32,124,173,1) 0%,rgba(28,105,147,1) 100%);
+  background: linear-gradient(to bottom, rgba(32,124,173,1) 0%,rgba(28,105,147,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#207cad', endColorstr='#1c6993',GradientType=0 );
+  box-shadow: 1px 0 0 #3F9CCF;
+}
+#header input#search {
+  border: none;
+  border-radius: 20px;
+  padding: 6px 6px 6px 28px;
+  color: #888;
+  font-family: arial;
+  font-size: 13px;
+  float: right;
+  margin: 21px 20px 0 0;
+  box-shadow: 0 1px 2px #bbb inset;
+  background: #fff url('http://png-4.findicons.com/files/icons/1389/g5_system/16/toolbar_find.png') no-repeat 8px 6px;
+  background-repeat: no-repeat;
+  outline: none;
+}
+input#search::-webkit-input-placeholder {color: #bbb; padding: 2px 0 0;}
+#block-block-2 {
+  float: left;
+  color: #fff;
+  margin: 11px 0 0 20px;
+  width: 208px;
+}
+#block-block-2 span {font-family: 'Roboto', sans-serif; font-weight: 300; font-size: 22px;}
+#block-block-2 a {
+  display: block;
+  float: left;
+  font-size: 13px;
+  margin: 1px 0 0 28px;
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px dotted #fff;
+}
+#block-block-3 {float: left;}
+#block-block-3 #login_section {float: left; margin: 8px 0 0 20px;}
+#block-block-3 a#signin {
+  font-size: 22px;
+  color: #fff;
+  background: url('http://png-1.findicons.com/files/icons/2580/android_icons/24/swimming_lock_open.png') no-repeat 0 3px;
+  padding: 0px 0 0 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  margin: 0 0 2px;
+  float: left;
+ }
+ #block-block-3 a#signup {width: 100%; float: left; color: #FFE313;}
+
+
+/* PreHeader */
+#preheader {height: 120px; border-bottom: 2px solid #eee;}
+a#logo {width: 200px; height: 100px; float: left; background: #eee; margin: 0 40px 40px 0;}
+#block-block-4 {float: left;}
+#preheader ul {width: 600px; list-style: none; margin: 0; padding: 0;}
+#preheader ul li {width: 200px; float: left; margin: 0 0 8px;}
+/* END PreHeader */
+
+
+/* Pager */
+#preheader {height: 120px; border-bottom: 2px solid #eee;}
+a#logo {width: 200px; height: 100px; float: left; background: #eee; margin: 0 40px 40px 0;}
+#block-block-4 {float: left;}
+#preheader ul {width: 600px; list-style: none; margin: 0; padding: 0;}
+#preheader ul li {width: 200px; float: left; margin: 0 0 8px;}
+/* END Pager */
+
+
+
+/************/
+
+
+#main {width: 1360px; 
+background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%, rgba(255,255,255,0.2) 100%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,0.2)));
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%,rgba(255,255,255,0.2) 100%);
+background: -o-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%,rgba(255,255,255,0.2) 100%);
+background: -ms-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%,rgba(255,255,255,0.2) 100%);
+background: radial-gradient(ellipse at center,  rgba(255,255,255,1) 0%,rgba(255,255,255,0.2) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#33ffffff',GradientType=1 );
+  margin: 40px auto; border-radius: 20px; box-shadow: 0 8px 30px #C0D7E2; padding: 20px;}
